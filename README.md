@@ -1,0 +1,1 @@
+# FR Loss on Mnist

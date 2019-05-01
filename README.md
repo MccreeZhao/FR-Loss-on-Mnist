@@ -2,9 +2,17 @@
 Implement diffrent Face Recognition Loss with Pytorch. Testing and visualizing on Mnist. It's just a toy example but very useful to understand and compare those loss function.
 
 ## Example
-### Raw 
-### CenterLoss 
-### ArcSoftmax Loss 
+###Raw 
+![epoch=79](https://i.loli.net/2019/05/01/5cc9a6708ab78.jpg)
+2D Embedded Feature
+![cos_epoch=79](https://i.loli.net/2019/05/01/5cc9a64be699e.jpg)
+Normalized Feature
+###CenterLoss 
+![epoch=79](https://i.loli.net/2019/05/01/5cc9aae8d3bf0.jpg)
+![cos_epoch=79](https://i.loli.net/2019/05/01/5cc9aacec1233.jpg)
+###SphereFace
+![epoch=79](https://i.loli.net/2019/05/01/5cc9ad3b57fc1.jpg)
+![cos_epoch=79](https://i.loli.net/2019/05/01/5cc9ad54262e6.jpg)
 
 
 ## Quick Start

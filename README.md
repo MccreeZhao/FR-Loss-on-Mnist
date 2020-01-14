@@ -24,13 +24,13 @@ Normalized Feature
 
 ## Quick Start
 ### Dependencies
-- Pytorch 1.0 (0.4 maybe work either)
-- tensorboardX 1.4
+- Pytorch >=1.0 (0.4 maybe work either)
+- tensorboardX >=1.4
 
 I highly recommend you to use Anaconda.
 ### How to run
-- the net.py include the network and loss functional
-- the other python scripts using different loss to train the Mnist. Simply use python3 xx.py and you can use tensorboard to see the learning curve and feature visualization. Also, the images are saved on the work directory.
+- Net.py include the implementation of network and loss functions
+- train.py contains the training and test process. Editing name to choose a proper loss function.
 
 ## About the project
 - I try to use the same structure to implement different loss. If you have any questions or you find any mistakes, please submmit an issue. Thanks a lot!

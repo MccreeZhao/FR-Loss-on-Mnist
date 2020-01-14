@@ -1,5 +1,12 @@
+
 # FR Loss on Mnist
 Implement diffrent Face Recognition Loss with Pytorch. Testing and visualizing on Mnist. It's just a toy example but very useful to understand and compare those loss function.
+
+## Recent Updata
+**`2020.1.14`**: 
+- Fix some bugs in ArcFace
+- Visualize test data rather than training data
+- Add support for our QAMFace Loss
 
 ## Example
 ### Raw 

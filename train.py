@@ -25,7 +25,7 @@ def setup_seed(seed):
 
 setup_seed(17)
 
-name = 'QAMFace'  ## choose loss type
+name = 'raw'  ## choose loss type
 assert name in ['raw', 'CenterFace', 'NormFace', 'SphereFace', 'ArcFace', 'QAMFace']
 ## Set save path
 logDir = os.path.join('./log', name, get_time())
